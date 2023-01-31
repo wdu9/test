@@ -1,0 +1,22 @@
+\begin{table}
+\begin{center}\renewcommand{\arraystretch}{1.5}
+\caption{Household Calibration}\label{table:Calibration}
+\begin{tabular}{|c|ccl|c|}
+\hline
+\multicolumn{5}{|l|}{Calibrated Parameters}  \\ \hline
+Description                     & \multicolumn{1}{c}{Parameter} & Value & \multicolumn{2}{c|}{Source/Target }\\ \hline
+CRRA & \multicolumn{1}{c}{$\CRRA$} & 2 & \multicolumn{2}{c|}{Standard} \\
+Belief Reaction Coefficient   & \multicolumn{1}{c}{$\beta_{\eta}$} & .6 & \multicolumn{2}{c|}{Du, Qiu, and Wang (2022) } \\
+Real Interest Rate                 & \multicolumn{1}{c}{$r$} & $1.03^{.25} - 1$ & \multicolumn{2}{c|}{ 3\% annualized real rate} \\
+Discount Factor          & \multicolumn{1}{c}{$\beta$} & 0.961 & \multicolumn{2}{c|}{Employed MPC = 0.47 } \\
+Probability of Death       & \multicolumn{1}{c}{$\not D$} & 0.00625 & \multicolumn{2}{c|}{40 Year Work Life} \\
+Tax Rate       & \multicolumn{1}{c}{$\tau$} & 0.18 & \multicolumn{2}{c|}{} \\
+Real Wage & \multicolumn{1}{c}{$w$} & 2.0 & \multicolumn{2}{c|}{} \\
+Unemployment Benefits & \multicolumn{1}{c}{$u$} & 0.7 & \multicolumn{2}{c|}{ 35\% Replacement Rate} \\
+Job Finding Rate & \multicolumn{1}{c}{$\eta$} & 0.667 & \multicolumn{2}{c|}{ 5\% Unemployment Rate} \\
+Job Separation Rate & \multicolumn{1}{c}{$\omega$} & 0.1 & \multicolumn{2}{c|}{\cite{Graves2022}} \\
+Std Dev of Log Permanent Shock  & \multicolumn{1}{c}{$\sigma_{\pshk}$} & 0.06 & \multicolumn{2}{c|}{\cite{carroll2017distribution}} \\
+Std Dev of Log Transitory Shock & \multicolumn{1}{c}{$\sigma_{\theta}$} & 0.2 & \multicolumn{2}{c|}{\cite{carroll2017distribution})} \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
